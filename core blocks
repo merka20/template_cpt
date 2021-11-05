@@ -1,0 +1,63 @@
+<?php
+[...]
+
+'template' => 
+  array(
+    array('core/archives'),
+    array('core/audio'),
+    array('core/block'),
+    array('core/button'),
+    array('core/categories'),            
+    array('core/code'),
+    array('core/columns'),
+    array( 'core/cover', array(
+        'align' => 'center', // Parameters: left, center, right
+        'backgroundType' => '???', // Default: image
+        'className' => 'attr-cover-test',
+        'contentAlign' => 'right', // Parameters: left, center, right
+        //'overlayColor' => '',
+        'customOverlayColor' => '#ff0000', // Only works if 'overlayColor' has not been set
+        'dimRatio' => 90, // opacity: 0 to 100
+        'hasParallax' => true, // Parameters: true, false
+        'id' => '',
+        'title' => 'I am a block placeholder title!',
+    ) ),   
+    array('core/embed'),    
+    array('core/file'),
+    array('core/gallery'),
+    array('core/heading'),  
+    array('core/html'),
+    array('core/image'),    
+    array('core/latest-comments'),
+    array('core/latest-posts'), 
+    array('core/list'),
+    array('core/media-text'),
+    array('core/missing'),  
+    array('core/more'),
+    array('core/nextpage'),
+    array( 'core/paragraph', array(
+        //'backgroundColor' => '#000000',
+        'customBackgroundColor' => '#000000', // Only works if 'backgroundColor' has not been set
+        //'textColor' => '#0099ff',
+        'customTextColor' => '#00ff00', // Only works if 'textColor' has not been set
+        'fontSize' => 'large', // Parameters: small, normal, medium, large, huge
+        //'customFontSize' => '10', Only works if 'fontSize' has not been set
+        'dropCap' => true, // // Parameters: true, false
+        'align' => 'left', // Parameters: left, center, right
+        'className' => 'attr-template-test',
+        'placeholder' => 'Add a description',
+    ) ),
+    array('core/preformatted'),
+    array('core/pullquote'),
+    array('core/quote'),
+    array('core/separator'),
+    array('core/shortcode'),
+    array('core/spacer'),
+    array('core/subhead'),  
+    array('core/table'),
+    array('core/template'),
+    array('core/text-columns'), 
+    array('core/verse'),
+    array('core/video')
+  )
+[...]
